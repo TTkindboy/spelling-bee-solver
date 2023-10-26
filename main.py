@@ -24,7 +24,7 @@ def find_valid_words(wordlist, letters, central_letter):
 def main():
   # clear_on_replit()
   wordlist = load_wordlist("words_alpha.txt")
-  letters = input("Enter the 7 letters for the puzzle (no spaces): ").lower()
+  letters = input("Enter the 7 letters for the puzzle, including the central letter. (no spaces): ").lower()
   central_letter = input("Enter the central letter: ").lower()
   valid_words = find_valid_words(wordlist, letters, central_letter)
   clear_on_replit()
