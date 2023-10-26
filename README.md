@@ -37,3 +37,5 @@ def main():
 if __name__ == "__main__":
   main()
 ```
+## Alternate method
+If ur lazy u can just run it [here](https://replit.com/@TTkindBoi/Spelling-bee-solver?v=1)
